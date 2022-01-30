@@ -1,0 +1,128 @@
+/***********************/
+/* basics               /
+/***********************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    color: #555;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+
+/******************************************************************************************************************/
+/***********************/
+/* head                 /
+/***********************/
+
+h1{
+    margin-bottom: 30px;
+    font-size: 300%;
+    font-weight: 300;
+    word-spacing: 5px;
+}
+
+
+/******************************************************************************************************************/
+/***********************/
+/* header               /
+/***********************/
+
+
+header{
+    background-image:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0)) , url("../img/back3.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.hed{
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50% ,-60%);
+}
+.logo{
+    width:100px;
+    height: auto;
+    position: absolute;
+    top:80%;
+    margin-bottom:35px;
+    margin-right: 55px;
+
+}
+.main{
+    float: right;
+    list-style: none;
+    margin-top: 35px;
+    margin-right: 120px;
+}
+
+.main li{
+    display: inline-block;
+     margin-left: 30px;
+     padding-bottom: 5px;
+     transition: border-bottom 0.3s;    
+     border-bottom: 3px solid transparent;
+}
+.main li:hover{
+  border-bottom: 3px solid #ffb8b6;
+}
+
+.main li a{
+    text-decoration: none;
+    color: #555;
+}
+
+
+/******************************************************************************************************************/
+/* buttons                 /
+/***********************/
+
+
+.lli{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 90%;
+    border-radius: 5px;
+
+}
+
+.lli1{
+    background-color: #ffb8b6;
+    color: #fff;
+    border: 1px solid #ffb8b6;
+
+}
+
+.lli1:active,.lli1:hover{
+    background-color: #f44;
+        transition: background-color 0.5s , color 0.5s;
+
+}
+
+.lli2{
+    border: 1px solid #ffb8b6;
+    color: #ffb8b6;
+    border: 1px solid #ffb8b6;
+
+}
+
+.lli2:active,.lli2:hover{
+    background-color: #f44;
+    color: #fff;
+        transition: background-color 0.5s , color 0.5s;
+
+}
+
