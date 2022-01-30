@@ -17,7 +17,23 @@ html{
     margin: 0 auto;
     
 }
-
+section{
+    padding: 100px 0;
+}
+h2{
+    font-size: 180%;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2::after{
+    display: block;
+    content: '';
+    height: 2px;
+    width: 100px;
+    background-color:#ffb8b6; 
+    margin: 35px auto 0 auto;
+}
 
 /******************************************************************************************************************/
 /***********************/
@@ -30,9 +46,26 @@ h1{
     font-weight: 300;
     word-spacing: 5px;
 }
+h3{
+    text-align: center;
+    direction: ltr;
+    font-weight: 300; 
+    margin-bottom: 15px;
+    font-size: 110%;
+}
+/***********************/
+/* paragraph            /
+/***********************/
+.text{
+    line-height: 145%;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto 50px auto;
+}
 
 
-/******************************************************************************************************************/
+/*********************************************************
+*********************************************************/
 /***********************/
 /* header               /
 /***********************/
@@ -122,3 +155,26 @@ header{
 
 }
 
+/***********************/
+/* sections             /
+/***********************/
+.cards{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    width: 21%;
+/*direction: ltr;*/
+}
+ion-icon{
+    width: 50px;
+    height: 50px;
+    fill:#ffb8b6;
+    margin-bottom: 20px;
+    padding-right: 85px;
+}
+.card p{
+    font-size: 90%;
+    line-height:1.5;
+}
